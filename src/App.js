@@ -88,7 +88,7 @@ function App() {
         >
           {netChange >= 0
             ? `+${netChange.toFixed(2)}`
-            : `-${netChange.toFixed(2)}`}{' '}
+            : `${netChange.toFixed(2)}`}{' '}
           <span
             style={{
               color: netChange >= 0 ? 'green' : 'red',
